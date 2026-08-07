@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Model files and large binaries
+*.pt
+*.weights
+*.onnx
+*.engine
+*.bin
+*.zip
+
+# Logs and outputs
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
