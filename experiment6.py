@@ -57,7 +57,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.008)
 pygame.init()
 WIDTH, HEIGHT = 950, 520
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Exp 9: PyTorch Neural Network Kinematics Controller")
+pygame.display.set_caption("Exp 6: PyTorch Neural Network Kinematics Controller")
 clock = pygame.time.Clock()
 
 BG_COLOR = (20, 22, 28)

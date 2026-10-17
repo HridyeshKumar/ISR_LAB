@@ -5,7 +5,7 @@ import numpy as np
 cap = cv2.VideoCapture(0)
 
 # Window Setup
-cv2.namedWindow("Exp 7: Pure OpenCV Gesture Recognition", cv2.WINDOW_AUTOSIZE)
+cv2.namedWindow("Exp 5: Pure OpenCV Gesture Recognition", cv2.WINDOW_AUTOSIZE)
 
 while cap.isOpened():
     ret, frame = cap.read()
@@ -106,7 +106,7 @@ while cap.isOpened():
                 cv2.FONT_HERSHEY_SIMPLEX, 0.6, (50, 215, 120), 2)
 
     # Show Mask and Camera Feed
-    cv2.imshow("Exp 7: Pure OpenCV Gesture Recognition", frame)
+    cv2.imshow("Exp 5: Pure OpenCV Gesture Recognition", frame)
     cv2.imshow("Skin Segmentation Mask", mask)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):

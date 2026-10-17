@@ -8,7 +8,7 @@ import numpy as np
 pygame.init()
 WIDTH, HEIGHT = 900, 500
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Exp 15: Autonomous 2v2 Robot Soccer Simulation")
+pygame.display.set_caption("Exp 7: Autonomous 2v2 Robot Soccer Simulation")
 clock = pygame.time.Clock()
 
 # Colors
